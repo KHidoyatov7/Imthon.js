@@ -16,7 +16,6 @@ function renderData() {
         $userCard.innerHTML = `
         <img src="${user.image}">
     <p>${user.name}</p> <br>
-    <span>Jordan 1 Low OG SP x <br> Travis Scott Black <br> Phantom</span>
     `;
         userFragment.append($userCard);
       });
@@ -37,7 +36,7 @@ function renderDataThird() {
           $userCard.innerHTML = `
           <img src="${user.images}">
       <p>${user.title}</p>
-      <span sty>$89.99 · 81% OFF</span> <br>
+      <span>$89.99 · 81% OFF</span> <br>
       <span>$18.99</span>
       `;
           userFragment.append($userCard);

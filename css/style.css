@@ -42,6 +42,7 @@ li a {
     background-size: cover;
     height: 300px;
     margin: 17px 0 100px 0;
+    overflow-x: hidden;
 }
 
 .featured-plp {
@@ -183,9 +184,10 @@ form{
 
 .first-sect {
     display: grid;
-    grid-template-columns: repeat(6, 270px);
+    grid-template-columns: repeat(7, 270px);
     margin-top: 48px;
     text-decoration: none;
+    overflow-x: hidden;
 }
 .first-sect img {
     width: 150px;
