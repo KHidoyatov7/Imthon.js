@@ -1,0 +1,51 @@
+.about img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+.about {
+    display: flex;
+    gap: 20px;
+}
+.about p {
+    max-width: 300px;
+    line-height: 31px;
+    font-size: 13px;;
+}
+.about span {
+    line-height: 31px;
+    font-size: 24px;
+}
+.about h2 {
+    margin: 5px 0;
+}
+h2 {
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+strong {
+    color: red;
+}
+.buy {
+    border-radius: 20px;
+}
+.card {
+    border-radius: 20px;
+}
+.class {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.class__btns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+.later {
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    color: #3665F3;
+    border: 2px solid #3665F3;
+}
